@@ -46,21 +46,17 @@ Se aplicaron distintos criterios para determinar los KPIs establecidos con el fi
 En primer lugar se determinó el acceso a distintas tecnologías de conexión de país por habitantes. Esto nos muestra que promedio de la población tiene acceso a internet y por qué medios.
 La intención de este análisis es el de establecer estrategias para alcanzar aquellos zonas donde el acceso a tecnologías que permitan un mejor uso de internet.
 
-Ejmplo de la situación al 2022
+Tecnología Disponible
 
 ![Alt text](_scr/Promedio%20Habitantes%20con%20acceso%20a%20tecnologias%20internet.PNG)
 
 Esto nos indica que en términos de promedio, la población nacional cuenta con un acceso a internet por medio de cable modem. Esto podría transformarse en una oportunidad para mejorar la infraestructura, en cable modem y/o fibra óptica para que mayor población cuenta con este tipo de tecnología.
 
 
-En segundo lugar se determinó la máxima y mínima velocidad (a nivel promedio) a nivel nacional.
-
-![Alt text](_scr/velocidad%20media.PNG)
-
-Esto nos indica que Buenos Aires (Capital Federal) es quien cuenta con la mayor velocidad de bajada y a su vez qué provincia cuenta con la menor velocidad.
 
 
-Como tercer punto analizado, se determino la variación porcentual por trimestra del servicio de internet. Esto nos permite determinar la evolución del acceso a internet a nivel nacional a través de los años.
+
+Se determinó la variación porcentual por trimestra del servicio de internet. Esto nos permite determinar la evolución del acceso a internet a nivel nacional a través de los años.
 Se puede observar que a partir de Enero del 2020 la variación no cuenta con valores negativos. Esto puede deberse que a partir de ese período la pandemia del Covid 19 aceleró el uso de internet por lo que hasta el año actual la variación se mantuve positiva.
 
 Quien se lleva distribución de ingresos para el año 2022 es la red de telefónia móvil y en segundo lugar internet. En mi criterio, esto es una buena oportunidad para combiar dos servicios requeridos para la población, acceso a internet de calidad por datos móviles.
