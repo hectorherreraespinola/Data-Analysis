@@ -6,7 +6,7 @@
 
 
 
-# <h1 align="center">**` TEMA: Telecomunicaciones`**</h1>
+# <h1 align="center">**` TELECOMMUNICATIONS`**</h1>
 
 ### **INTRODUCTION**
 The telecommunications industry has played a vital role in our society, facilitating information on an international scale and enabling continuous communication even in the midst of a global pandemic. The transfer of data and communication is carried out mostly through the internet, fixed telephone lines, mobile telephony, almost anywhere in the world.
