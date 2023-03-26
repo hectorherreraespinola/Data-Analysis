@@ -18,7 +18,8 @@ https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/
 
 
 
-![Workflow](_scr\Workflow.jpg)
+
+<p align="center"> <img alt="Workflow" src="https://github.com/hectorherreraespinola/Data-Analysis/blob/main/_scr/Workflow.jpg" height=200px> 
 
 
 
