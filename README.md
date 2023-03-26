@@ -1,72 +1,53 @@
-# **PROYECTO INDIVIDUAL Nº3**
-# **Autor: Hector Javier Herrera Espínola**
+# **INDIVIUDAL PROJECT Nº3**
+# **Author: Hector Javier Herrera Espínola**
 
 
-**Fecha : 3/01/2023**
+**Updated: 26/03/2023**
 
 
 
 # <h1 align="center">**` TEMA: Telecomunicaciones`**</h1>
 
-### **INTRODUCCION**
-La industria de las telecomunicaciones ha jugado un papel vital en nuestra sociedad, facilitando la información a escala internacional y permitiendo la comunicación continua incluso en medio de una pandemia mundial. La transferencia de datos y comunicación se realiza en su mayoría a través de internet, líneas telefónicas fijas, telefonía móvil, casi en cualquier lugar del mundo.
-En este proyecto se realizará un análisis que permita reconocer el comportamiento del sector con el fin de establecer conclusiones que permitarán el desarrollo de objetivos para lograr una expansión en terminos de servicios de telecomunicación: Acceso a internet, líneas telefónicas fijas y telefonía móvil.
+### **INTRODUCTION**
+The telecommunications industry has played a vital role in our society, facilitating information on an international scale and enabling continuous communication even in the midst of a global pandemic. The transfer of data and communication is carried out mostly through the internet, fixed telephone lines, mobile telephony, almost anywhere in the world.
+In this project, an analysis will be carried out to recognize the behavior of the sector in order to establish conclusions that will allow the development of objectives to achieve an expansion in terms of telecommunication services: Internet access, fixed telephone lines and mobile telephony.
 
-Este análisis se realizará a nivel Nacional en Argentina y para ello se obtendrán los datos desde la siguiente fuente oficial: 
+This analysis will be carried out at the National level in Argentina and for this the data will be obtained from the following official source: 
 https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/
 
 
 
+
+![Workflow](_scr\Workflow.jpg)
+
+
+
 ### **OBJETIVOS**
-Los objetivos establecidos para esté proyecto se dividen en tres etapas fundamentales:
 
-`Análisis Exploratorio de los Datos`(Exploratory Data Analysis = EDA):
-El análisis explotario se realizó con la herramienta Python y como librería principal se utilizó **Pandas Profiling**. Está herramienta permite realizar un análisis general que permite un trabajo más eficiente. A su vez, dentro de este análisis se encontrará las justificaciones  y consideraciones de la utilización de ciertos datos.
-Es importante destacar que como una primera versión del proyecto, la carga de datos para realizar la exploración será por medio de la descarga de archivos en formato csv. Como segunda potencial versión se podrá plantear la importación de los datos por medio de la API REST desarrollada por la fuente oficial.
-En el siguiente link encontrarán todo el proceso de EDA: [Jupyter Notebook EDA](ExploratoyDataAnalysis.ipynb)
+The objectives established for this project are divided into three fundamental stages:
 
-
-`Análisis del Sector`:
-Con el fin de interpretar la información obtenida en el paso anterior. Con el fin de establecer el mejor entendimiento, se plantean 4 KPIs con el fin de representar la situación actual del sector, así cómo también poder planear objetivos para los próximos años, en términos de acceso al servicio, infraestructura necesaria, entre otros.
-Los KPIs a determinar son:
-- Aumento o disminución de la variación porcental trimestral del servicio de internet cada 100 hogares por provincia.
-- Tecnología disponible por habitante
-- Velocidad Medida Nacional
-- Ingresos anuales Telefonía Móvil, Fija e Intenter
-
-Con el fin de medir e interpretar los KPIs propuestos se trabajará con la herramienta de Business Intelligence: **POWER BI** para la creación de dashboards que permitan la visualización y correcta interpretación de los datos.
+*Exploratory Analysis*
+The exploitation analysis was carried out with the Python tool and **Pandas Profiling** was used as the main library. This tool allows a general analysis that allows a more efficient work. In turn, within this analysis you will find the justifications and considerations for the use of certain data.
+It is important to note that as a first version of the project, the data upload to carry out the exploration will be through the download of files in csv format. As a second potential version, it will be possible to consider importing the data through the REST API developed by the official source.
+In the following link you will find the entire EDA process: [Jupyter Notebook EDA](ExploratoyDataAnalysis.ipynb)
 
 
+*Sector Analysis*
+In order to interpret the information obtained in the previous step. In order to establish the best understanding, 4 KPIs are proposed in order to represent the current situation of the sector, as well as to be able to plan objectives for the coming years, in terms of access to the service, necessary infrastructure, among others.
+The KPIs to determine are:
+- Increase or decrease in the quarterly percentage variation of Internet service per 100 households by province.
+- Quarterly percentage variation of users with more frequent technologies
+- Nationwide speed ranges
 
 
-`Visualizaciones y Dasboard`
-Con Power BI se realizarón algunas transformaciones de los datos y se adecuaron las tablas para poder trabajar en las distintas visualizaciones que permita el correcto entendimiento de la situación a plantear.
-En algunos casos se han aplicado transformaciones de Python con el fin de realizar transformaciones y complementar el uso de tecnología disponible.
-Se aplicaron distintos criterios para determinar los KPIs establecidos con el fin de efectuar las conclusiones correspondientes.
-En primer lugar se determinó el acceso a distintas tecnologías de conexión de país por habitantes. Esto nos muestra que promedio de la población tiene acceso a internet y por qué medios.
-La intención de este análisis es el de establecer estrategias para alcanzar aquellos zonas donde el acceso a tecnologías que permitan un mejor uso de internet.
-
-Tecnología Disponible
-
-![Alt text](_scr/Promedio%20Habitantes%20con%20acceso%20a%20tecnologias%20internet.PNG)
-
-Esto nos indica que en términos de promedio, la población nacional cuenta con un acceso a internet por medio de cable modem. Esto podría transformarse en una oportunidad para mejorar la infraestructura, en cable modem y/o fibra óptica para que mayor población cuenta con este tipo de tecnología.
+In order to measure and interpret the proposed KPIs, the Business Intelligence tool will be used: **POWER BI** for the creation of dashboards that allow the visualization and correct interpretation of the data.
 
 
 
 
+*Visualizaciones y Dasboard*
+With Power BI, some transformations of the data were carried out and the tables were adapted to be able to work in the different visualizations that allow the correct understanding of the situation to be considered.
+Different criteria were applied to determine the established KPIs in order to draw the corresponding conclusions.
+Firstly, access to different country connection technologies per inhabitant was determined. This shows us what average population has access to the Internet and by what means.
+The intention of this analysis is to establish strategies to reach those areas where access to technologies that allow better use of the Internet.
 
-Se determinó la variación porcentual por trimestra del servicio de internet. Esto nos permite determinar la evolución del acceso a internet a nivel nacional a través de los años.
-Se puede observar que a partir de Enero del 2020 la variación no cuenta con valores negativos. Esto puede deberse que a partir de ese período la pandemia del Covid 19 aceleró el uso de internet por lo que hasta el año actual la variación se mantuve positiva.
-
-Quien se lleva distribución de ingresos para el año 2022 es la red de telefónia móvil y en segundo lugar internet. En mi criterio, esto es una buena oportunidad para combiar dos servicios requeridos para la población, acceso a internet de calidad por datos móviles.
-
-![Alt text](_scr/Distribucion%20de%20Ingresos.PNG)
-
-
-
-`Conclusiones`
-Mediante la aplicación de distintas técnicas de programación, visualización y conocimiento del mercado, se han podido analizar el comportamiento del sector. Esto permitirá, junto a otros objetivos, enfocarse en las principales oportunidades con el fin de proyectar con inversiones a largo plazo, otorgando servicios a la población y generando revenue para la organización mediante la implementación de estas inversiones, cómo pueden ser: Mejorar la infraestructura fuera de Buenos Aires, utilizar las antenas de redes móviles para mejorar la calidad de conexión y enforcase en aquellas provincias donde aún el acceso a internet no es de calidad.
-
-
-Muchas gracias por llegar hasta esta instancia
