@@ -18,7 +18,7 @@ https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/
 
 
 
-![Workflow](_scr\Workflow.jpg)
+[Workflow](_scr\Workflow.jpg)
 
 
 
