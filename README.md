@@ -1,4 +1,4 @@
-# **INDIVIUDAL PROJECT Nº3**
+# **INDIVIDUAL PROJECT Nº3**
 # **Author: Hector Javier Herrera Espínola**
 
 
